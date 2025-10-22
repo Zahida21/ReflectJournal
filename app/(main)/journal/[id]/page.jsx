@@ -22,6 +22,7 @@ export default async function JournalEntryPage({ params }) {
             alt="Mood visualization"
             className="object-contain"
             fill
+            sizes="100vw"
             priority
           />
         </div>
