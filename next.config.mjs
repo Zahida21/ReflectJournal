@@ -2,15 +2,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-     unoptimized: true, // disable Next image optimization for Render
     remotePatterns: [
       {
         protocol: "https",
         hostname: "pixabay.com",
+        pathname: "/**",
       },
       {
         protocol: "https",
         hostname: "cdn.pixabay.com",
+         pathname: "/**",
       },
     ],
   },
