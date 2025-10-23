@@ -14,7 +14,7 @@ export default async function JournalEntryPage({ params }) {
 
   return (
     <>
-      {/* Header with Mood Image */}
+      {/* Header with Mood Image
       {entry.moodImageUrl && (
         <div className="relative h-48 md:h-64 w-full">
           <Image
@@ -25,7 +25,7 @@ export default async function JournalEntryPage({ params }) {
             priority
           />
         </div>
-      )}
+      )} */}
 
       <div className="p-6 space-y-6">
         {/* Header Section */}
